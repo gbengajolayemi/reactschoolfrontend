@@ -1,0 +1,90 @@
+/* Styles for Header component */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #789b7d;
+    height: 90px; /* Adjusted height for better alignment */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.Logo-box img {
+    max-width: 50px; /* Adjusted size for better alignment */
+    height: auto;
+    border-radius: 30px;
+    margin-right: 10px; /* Space between logo and title */
+}
+
+.title-box {
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.title-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0; /* Remove default margin */
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.middle-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    background-color: rgb(169, 193, 131);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto; /* Center the middle-box */
+    border-radius: 20px;
+}
+
+.middle-box .m1,
+.middle-box .m2,
+.middle-box .m3 {
+    flex: 1;
+    padding: 10px;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #c5dcb5;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.middle-box .m3::after {
+    content: 'h3';
+}
+
+.Logout-box {
+    cursor: pointer;
+    background-color: rgb(218, 16, 16);
+    padding: 5px 10px;
+    padding-top: 20px;
+    height: 45px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.Logout-text {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: underline;
+    margin: 0; /* Remove default margin */
+}
