@@ -12,7 +12,7 @@ const Header = () => {
                     alt="logo" />
                 </div>
                 <div className="title-box">
-                    <Link to="/home" className="title-name">BRAINIAC ACADEMY</Link>
+                    <Link to="/home" className="title-name"> ACADEMY</Link>
 
                 </div>
             </div>
